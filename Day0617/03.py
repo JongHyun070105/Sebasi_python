@@ -6,7 +6,9 @@ while True:
         print("wrong")
         break
     else:
-        if((a * a) + (b * b) == (c * c) or (b * b) + (c * c) == (a * a) or (a * a) +(c * c) == (b * b)):
+        if((a * a) + (b * b) == (c * c) or
+                (b * b) + (c * c) == (a * a) or
+                    (a * a) +(c * c) == (b * b)):
             print("right")
         else:
             print("wrong")
